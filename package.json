@@ -38,6 +38,7 @@
 		"@typescript-eslint/parser": "^5.27.0",
 		"eslint": "^8.16.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"generate-password": "^1.7.0",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-material-icons": "^2.0.4",
@@ -49,8 +50,8 @@
 	},
 	"type": "module",
 	"peerDependencies": {
-		"svelte": "^3.44.0",
-		"@sveltejs/kit": "^1.0.0"
+		"@sveltejs/kit": "^1.0.0",
+		"svelte": "^3.44.0"
 	},
 	"exports": {
 		"./package.json": "./package.json",
